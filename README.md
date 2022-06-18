@@ -31,6 +31,6 @@ Com o apply tudo será criado e no destroy tudo é destruído, por isso esses st
 Para realizar as chamadas basta utilizar a url que será apresentada nos logs do step `Terraform apply` com o método HTTP POST e o body conforme os [exemplos aqui](payloads/), ou rodar os testes direto no API Gateway via console da AWS
 
 ## __CloudWatch Logs__
-Além de todas as peças mencionadas acima, também estamos utilizando para nos ajudar com Troubleshootings um grupo de logs do CloudWatch que armazena e nos permite visualizar os logs da nossa Lambda, isto também foi criado via Terraform neste [ponto](https://github.com/cunha981/dynamodbmanager_function/blob/88d3838981a45f640565d01ece3c46796bbde249/terraform/main.tf#L54). Para acessar os logs basta entrar no CloudWatch Log Groups e buscar pelo nome da função `dynamodbmanager_function`
+Além de todas as peças mencionadas acima, também estamos utilizando para nos ajudar com Troubleshootings um grupo de logs do CloudWatch que armazena e nos permite visualizar os logs da nossa Lambda, isto também foi criado via Terraform neste [ponto](https://github.com/cunha981/dynamodbmanager_function/blob/a910f661d9728e5f4fd3b3e2851bf1e8105fa7fe/terraform/main.tf#L54). Para acessar os logs basta entrar no CloudWatch Log Groups e buscar pelo nome da função `dynamodbmanager_function`
 
 
